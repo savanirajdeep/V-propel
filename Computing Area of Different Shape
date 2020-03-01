@@ -1,0 +1,31 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+
+float area(float l,float b)
+{
+    return (l*b);
+}
+float area(float t,float b,float h)
+{
+    return (h*(t+b)/2);
+}
+float area(float r)
+{
+    return (3.14*r*r);
+}
+
+int main()
+{
+	float len,bre,top,bottom,height,radius;
+	double a;
+	cin>>len>>bre;
+	a = area(len,bre);
+	cout<<fixed<<setprecision(2)<<a<<endl;
+	cin>>top>>bottom>>height;
+	a = area(top,bottom,height);
+	cout<<fixed<<setprecision(2)<<a<<endl;
+	cin>>radius;
+	a = area(radius);
+	cout<<fixed<<setprecision(2)<<a<<endl;
+}
