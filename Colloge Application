@@ -3,7 +3,13 @@
 */
 
 College Application
-A student may apply for an arts college or an engineering college after his school. Admission to arts college or engineering college, is based on the marks obtained in the six subjects: English, Second language, Maths, Physics, Chemistry and Computer Science.  Both the applications have the following details: application number, name, age, marks in all six subjects and cut-off for the eligibility. For Arts college, cut-off is the   average of marks in all the subjects and whereas for engineering colleges cut-off is the average of marks in maths, physics, chemistry plus the marks scored in the entrance exam.  Given all the required details, design an OOP model to compute the cut-off marks and implement it using C++.
+A student may apply for an arts college or an engineering college after his school. 
+Admission to arts college or engineering college, is based on the marks obtained in the six subjects: 
+English, Second language, Maths, Physics, Chemistry and Computer Science.  
+Both the applications have the following details: application number, name, age, marks in all six subjects 
+and cut-off for the eligibility. For Arts college, cut-off is the average of marks in all the subjects and 
+whereas for engineering colleges cut-off is the average of marks in maths, physics, chemistry plus the marks scored in the entrance exam.
+Given all the required details, design an OOP model to compute the cut-off marks and implement it using C++.
 
 Note: Syntax to print 'x' decimal places of variable 'a'
 
